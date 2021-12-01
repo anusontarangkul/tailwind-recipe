@@ -4,7 +4,7 @@
   "description": "Recipe app using tailwind styling",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",

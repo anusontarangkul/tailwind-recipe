@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-recipe",
+  "version": "1.0.0",
+  "description": "Recipe app using tailwind styling",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anusontarangkul/tailwind-recipe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anusontarangkul/tailwind-recipe/issues"
+  },
+  "homepage": "https://github.com/anusontarangkul/tailwind-recipe#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
